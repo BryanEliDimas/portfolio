@@ -283,7 +283,7 @@
 								<p>Twilio API (gem)</p>
 								<p>Omniauth (gem)</p>
 								<p>Sidekiq</p>
-								<p>deploy to Heroku</p>
+								<p>Deploy to Heroku</p>
 							</div>
 						</div>
 						<div class="media">
@@ -342,7 +342,7 @@
 			<div class="container">
 				<h1 class="text-center title" id="portfolio">Projects</h1>
 				<div class="separator"></div>
-				<p class="lead text-center">9 weeks worth of projects I developed while attending The Iron Yard academy</p>
+				<p class="lead text-center">The apps I developed at The Iron Yard coding bootcamp, plus the project I'm most proud of: One Jump's web app.</p>
 				<br>
 				<div class="row object-non-visible" data-animation-effect="fadeIn">
 					<div class="col-md-12">
@@ -351,6 +351,7 @@
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
 								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".most-proud"><!-- App development --> The One I'm most proud of </a></li>
 								<li><a href="#" data-filter=".rails-apps"><!-- App development --> Rails Apps </a></li>
 								<li><a href="#" data-filter=".rails-api"><!-- Web design --> Rails API </a></li>
 								<li><a href="#" data-filter=".ruby-terminal"><!-- Site building --> HTML &amp; CSS / Terminal </a></li>
@@ -360,6 +361,59 @@
 
 						<!-- portfolio items start -->
 						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item most-proud">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/oj-screenshot-for-my-portfolio.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>One Jump</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">One Jump</a></a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">One Jump</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>At One Jump, I really had the chance to shine.</p>
+														<p>
+															It's where I applied everything I know and learned a few things on the way.
+														</p>
+														<br>
+														<p>
+															Features and tech: <br>
+															<ul>
+																<li>It as a dashboard feature. Allows signing up for three types of account. Allows signup and login with Facebook and Google. User authentication/authorization works with the Devise and Omniauth gems</li>
+																<li>Sends automated emails and text reminders</li>
+																<li>An essential component is a database I aggregated with a web scraper that I built with Python.</li>
+																<li>It is deployed to the cloud (heroku).</li>
+															</ul>
+														</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/oj-screenshot-for-my-portfolio.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<a href="https://etsy-bryan.herokuapp.com/" target="_blank"><button type="button" class="btn btn-sm btn-default">Live</button></a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
 							<div class="col-sm-6 col-md-3 isotope-item rails-api">
 								<div class="image-box">
 									<div class="overlay-container">
@@ -742,24 +796,6 @@
 			</div>
 		</div>
 		<!-- section end -->
-
-		<!-- section start -->
-		<!-- ================ -->
-		<!-- EMBEDDED RESUME -->
-		<!-- <div class="section pb-clear hidden-xs hidden-sm hidden-md">
-			<div class="container object-non-visible" data-animation-effect="fadeIn">
-				<h1 id="feedback" class="title text-center">Resume</h1>
-				<div class="space"></div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<h1 id="feedback" class="title text-center" style="margin-bottom: -60px;">Resume</h1>
-						<iframe src="ResumeBryanDimas.htm" frameBorder="0" width="100%" height="1100px"></iframe>
-					</div>
-				</div>
-				<div class="row">
-
-				</div>
-			</div> -->
 		</div>
 		<!-- section end -->
 
@@ -816,10 +852,10 @@
 								</ul>
 								<ul class="social-links">
 									<!-- <li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li> -->
-									<li class="twitter"><a target="_blank" href="https://twitter.com/Bryanelidimas"><i class="fa fa-twitter"></i></a></li>
 									<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/bryanelidimas"><i class="fa fa-linkedin"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="https://github.com/BryanEliDimas"><i class="fa fa-github"></i></a></li>
-									<li class="linkedin"><a target="_blank" href="http://blog.bryandimas.com/"><i class="fa fa-wordpress"></i></a></li>
+									<li class="github"><a target="_blank" href="https://github.com/BryanEliDimas"><i class="fa fa-github"></i></a></li>
+									<li class="twitter"><a target="_blank" href="http://blog.bryandimas.com/"><i class="fa fa-wordpress"></i></a></li>
+									<li class="twitter"><a target="_blank" href="https://twitter.com/Bryanelidimas"><i class="fa fa-twitter"></i></a></li>
 								</ul>
 							</div>
 						</div>
