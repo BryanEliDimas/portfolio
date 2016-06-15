@@ -29,7 +29,7 @@
 
 ---
 ## Education
-#### A.S. (candidate) Computer Science @ Lonestar College &emsp; <small>* 2014 - 2015*</small>
+#### A.S. (candidate) Computer Science @ Lonestar College &emsp; <small>*2014 - 2015*</small>
 `C++`
 
 ---
